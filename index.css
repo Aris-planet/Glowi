@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    font-family: 'Cinzel Decorative', cursive;
+    background: rgb(37, 37, 37);
+}
+
+
+
+
+
+/*HEADER SECTION STARTS*/
+
+header{
+    width: 100%;
+    height: 75px;
+    background: linear-gradient(200deg, rgba(56, 180, 108, 0.9) 0%, rgba(53, 243, 110, 0.7) 41%, rgba(18, 212, 170, 0.5) 100%);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+header > span{
+    margin-left: 80px;
+    text-shadow: -1px 2px 3px rgb(37, 37, 37);
+    font-size: 37px;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    margin-left: auto;
+    padding: 50px;
+}
+
+nav > a{
+    margin: 10px;
+    color: rgb(37, 37, 37);
+    font-size: 17px;
+    transition: .15s all ease-out;
+}
+
+nav > a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 2px rgb(37, 37, 37);
+    border-bottom:1px solid rgb(37, 37, 37);
+}
+
+nav a > i{
+    margin: 5px;
+}
+
+
+
+/*HEADER SECTION ENDS*/
+
+
+
+
+/*INICIO SECTION STARTS*/
+
+
+.float {
+    -webkit-animation: float 2.5s linear infinite;
+            animation: float 2.5s linear infinite;
+            width: 20%;
+            -o-object-fit: cover;
+               object-fit: cover;
+  }
+
+  @-webkit-keyframes float {
+    0%,
+    100% {
+      -webkit-transform: translateY(0rem);
+              transform: translateY(0rem);
+    }
+    50% {
+      -webkit-transform: translateY(.5rem);
+              transform: translateY(.5rem);
+    }
+  }
+  
+  @keyframes float {
+    0%,
+    100% {
+      -webkit-transform: translateY(0rem);
+              transform: translateY(0rem);
+    }
+    50% {
+      -webkit-transform: translateY(.5rem);
+              transform: translateY(.5srem);
+    }
+  }
+
+
+  .main-i-cen-r{
+    width: 100%;
+  }
+
+  .main-i-cen-d{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .main-i-cen-te{
+    height: 30rem;
+    width: 59%;
+    display: flex;
+    padding: 25px;
+  }
+
+  .main-i-cen-te > h1{
+    margin: auto;
+    font-size: 47px;
+    color: rgb(141, 223, 74);
+  }
+
+  .main-i-cen-im{
+    height: 25rem;
+    padding: 30px;
+    display: flex;
+    margin-left: 70px;
+    
+  }
+
+  .main-i-cen-im > img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+
+
+  /*INICIO SECTION ENDS*/
+
+
+
+
+
+
+  /*TRABAJO SECTION STARTS*/
+
+  .main-tr-sec-t{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background: linear-gradient(200deg, rgba(56, 180, 108, 0.9) 0%, rgba(53, 243, 110, 0.7) 41%, rgba(18, 212, 170, 0.5) 100%);
+  }
+
+  .title-main-tr-sec{
+    text-align: center;
+    color: rgb(37, 37, 37);
+    width: 100%;
+    height: 70px;
+    font-weight: 400;
+
+  }
+
+  .main-tr-sec-p{
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+  }
+
+  .main-tr-sect-o{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    padding: 100px 60px 30px 60px;
+  }
+
+
+  .main-tr-sect-card{
+    height: 400px;
+    width: 300px;
+    border: 2px solid rgb(215, 215, 215);
+    outline: 4px solid rgb(49, 214, 98);
+    background: rgb(37, 37, 37);
+    border-radius: 20px;
+    box-shadow: 0 0 12px 1px rgba(37, 37, 37, 0.835);
+    transition: .3s all ease-out;
+    padding: 10px;
+  }
+
+  .main-tr-sect-card:hover{
+    height: 402px;
+    width: 302px;
+    background: rgba(37, 37, 37, 0.35);
+    border: 2.4px solid rgba(16, 16, 16, 0.7);
+    outline: 4.4px solid rgba(49, 214, 98, 0.245);
+  }
+
+  .card1{
+    z-index: 100;
+  }
+
+  .card2{
+    z-index: 50;
+  }
+
+  .card3{
+    z-index: 25;
+  }
+
+
+  .main-tr-sect-im-res{
+    margin: auto;
+    margin-top: 20px;
+    width: 274px;
+    height: 155px;
+  }
+
+
+  .main-tr-sect-im-res > img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .main-tr-sect-titl-res{
+    width: 274px;
+    margin: auto;
+    height: 30px;
+  }
+
+  .main-tr-sect-titl-res > h2{
+    color: rgb(202, 255, 78);
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .main-tr-sect-inf-p{
+    margin-top: 5px;
+    width: 100%;
+    height: 185px;
+  }
+
+  .inf-p{
+    width: 274px;
+    margin: auto;
+    height: 30px;
+  }
+
+  .inf-p > h2{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-align: center;
+  }
+
+
+  .main-tr-sect-inf-pos{
+    display: flex;
+  }
+
+  .main-tr-sect-inf-tex{
+    margin: 2px;
+    width: 137px;
+    height: 151px;
+  }
+
+  .main-tr-sect-inf-tex > h3{
+    margin: 8px 0;
+    color: rgb(255, 255, 255);
+    font-size: 13.5px;
+    font-weight: 400;
+    border-bottom: .3px solid rgba(229, 229, 229, 0.233);
+  }
+
+
+
+
+  /*TRABAJO SECTION ENDS*/
+
+
+
+  /*TEAM SECTION STARTS*/
+
+
+
+
+  .main-eq-sec-bt{
+    width: 100%;
+    height: 100vh;
+    background: rgb(37, 37, 37);
+  }
+
+  .main-eq-sec-po{
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .main-eq-sec-ord{
+    display: flex;
+  }
+
+
+  .main-eq-sec-dev{
+    width: 50%;
+    height: 85vh;
+  }
+
+  .main-eq-sec-h2{
+    height: 450px;
+    font-size: 25px;
+    padding: 30px;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 8px 1px rgba(255, 255, 255, 0.565);
+    margin-top: 40px;
+    background: rgb(49, 214, 98);
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    transition: .4s all ease;
+  }
+
+  .main-eq-sec-h2:hover{
+    background: rgba(49, 214, 98, 0.75);
+    color: rgb(38, 38, 38);
+  }
+
+  .main-eq-sec-h2 > h2{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .main-eq-sec-h2 > p{
+    display: flex;
+    margin: 50px 0 0 0;
+  }
+
+
+
+
+  .main-eq-sec-des{
+    display: flex;
+    width: 40%;
+    height: 85vh;
+    margin-left: auto;
+    margin-top: 23rem;
+  }
+
+  .main-eq-sec-h{
+    height: 300px;
+    font-size: 25px;
+    padding: 30px;
+    color: rgb(49, 214, 98);
+    box-shadow: 0 0 8px 1px rgba(49, 214, 98, 0.663);
+    margin-top: 40px;
+    background: rgb(255, 255, 255);
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    transition: .4s all ease;
+  }
+
+  .main-eq-sec-h:hover{
+    background: rgba(255, 255, 255, 0.75);
+    color: rgb(38, 38, 38);
+  }
+
+  .main-eq-sec-h > h2{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .main-eq-sec-h > p{
+    font-size: 18px;
+    margin: 25px 0 0 0;
+    text-align: center;
+    font-weight: 600;
+  }
+
+
+
+
+
+  /*TEAM SECTION ENDS*/
+
+
+
+
